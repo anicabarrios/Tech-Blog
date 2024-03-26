@@ -3,14 +3,17 @@
     margin: 0;
     padding: 0;
   }
-  
+  a {
+    color: #BCA3AC;
+    text-decoration: none;
+}
   header, .project:not(:last-child) {
     border-bottom: 1px solid #ccc;
   }
   
   .wrapper{
     max-width: 1200px;
-    background-color: #DAFFEF;
+    
   }
   
   .no-button {
@@ -53,7 +56,6 @@
     margin: 0;
     font-size: 1.5em;
     
-    
   }
   
   .navbar a{
@@ -73,30 +75,31 @@
   
   .post{
     margin: 20px 0;
-    border: 2px #5D737E;
+    border: 2px #827081;
     text-align: right;
+    background-color: #F3EAF4;
   }
   
   .post-title{
-    background-color:#FCFFFD;
+    background-color:#E5CEDC;
     padding: 15px;
     margin-top: 0;
     text-align: left;
   }
   
   .post-title a:link{
-    color: #5D737E;
+    color: #827081;
     text-decoration: none;
   }
   
   .post-title a:visited{
-    color: #5D737E;
+    color: #827081;
     text-decoration: none;
   }
   
   .post-title a:hover{
     text-decoration: none;
-    color: #0e506e;
+    color: #AEA3B0;
   }
   
   .post-content{
@@ -168,7 +171,7 @@
   .comment-container{
     margin-top: 20px;
     padding: 10px;
-    border: 1px #d3d3d3 solid;
+    border: 2px #AEA3B0;
     border-radius: 10px;
   }
   
@@ -197,8 +200,12 @@
   .new-post-button{
     margin: 20px 0;
   }
+  .row:link{
+   color: #AEA3B0;
+  }
   
   footer{
     margin-top: 60px;
     font-size: 1.3em;
   }
+  
