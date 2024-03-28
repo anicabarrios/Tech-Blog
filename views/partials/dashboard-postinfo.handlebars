@@ -1,9 +1,15 @@
-<div class="container row dashboard-container">
-    <div class="card-header dashboard-post">
-       <h4 class="card-title post-title"><a class="link" href="/dashboard/edit/{{id}}">{{title}}</a></h4>
-        <div class="card-body post-body">
-        <p class="card-body post-content">{{content}}</p>
-        <p class="card-text post-author">Posted by <span class="post-username">{{user.username}}</span> on {{format_date created_at}}</p>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card dashboard-post">
+                <div class="card-header">
+                    <h4 class="card-title"><a href="/dashboard/edit/{{id}}" class="link">{{title}}</a></h4>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">{{content}}</p>
+                    <p class="card-text">Posted by <span class="post-username">{{user.username}}</span> on {{format_date created_at}}</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

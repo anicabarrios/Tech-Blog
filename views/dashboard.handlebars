@@ -1,16 +1,13 @@
 <h2>Your Posts</h2>
 
-<button type="submit" class="btn new-post-button"><a class="link" href="/dashboard/new">+ New Post</a></button>
+<button type="button" class="btn btn-link"><a href="/dashboard/new" class="link">+ New Post</a></button>
+
 <section>
-{{#if posts.length}}
-
-  
-    {{#each posts as |post|}}
-      {{> dashboard-postinfo post}}
-    {{/each}}
-
-
-{{/if}}
+    {{#if posts.length}}
+        {{#each posts as |post|}}
+            {{> dashboard-postinfo post}}
+        {{/each}}
+    {{/if}}
 </section>
 
 <script src="/js/add-post.js"></script>
