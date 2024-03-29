@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("/images/image3.jpg");
+    background-image: url("/images/cover.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -19,7 +19,7 @@ header, .project:not(:last-child) {
 }
 
 a {
-    color: #b7919f;
+    color: black;
     text-decoration: none;
 }
 
