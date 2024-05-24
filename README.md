@@ -9,6 +9,7 @@ Tech Blog provides a content management system (CMS) to run a blog site. Users c
 Tech Blog is a full stack web application built following the Model View Controller (MVC) design paradigm. It uses MySQL and Sequelize for model definition and interaction, handlebars.js as the HTML view templating engine, and express.js for the server. The site uses cookies and session data to restrict access to publishing posts and comments to logged in users.
 
 The web application is hosted on Heroku. Link to deployed website:
+https://tech-blog-ab-23176522f867.herokuapp.com/
 
 ## Table of Contents
 
